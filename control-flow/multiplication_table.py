@@ -1,7 +1,6 @@
 number = int(input("Enter a number to see its multiplication table: "))
 z = ""
-x = number
 for y in range (1,11):
-    z = x * y
-    print (f"{x} * {y} = {z}")                    # print(x,"*",y,"=",z)
+    z = number * y
+    print (f"{number} * {y} = {z}")                    # print(x,"*",y,"=",z)
     y+=1
