@@ -14,5 +14,5 @@ def perform_operation( num1, num2, operation ):
     elif num2 == 0:
       result = "Invalid operation"
   print(f"Result: {result}")
-perform_operation(1, 2,"add")
+perform_operation ( 1, 2, "add" )
   
