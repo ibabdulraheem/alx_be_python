@@ -12,7 +12,7 @@ def perform_operation(num1, num2, operation):
     if num2!=0:
       result = num1/num2
     elif num2 == 0:
-      result = "Invalid operation"
+      return "Invalid operation"
   print(f"Result: {result}")
 perform_operation ( 1, 2, "add" )
   
