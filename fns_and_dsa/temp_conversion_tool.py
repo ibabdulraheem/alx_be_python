@@ -18,4 +18,4 @@ if conversion == "f":
 elif conversion == "c":
   convert_to_fahrenheit(user)
 else:
-  print("Invalid input! try again")
+  print("Invalid temperature. Please enter a numeric value.")
