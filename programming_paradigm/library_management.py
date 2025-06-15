@@ -9,7 +9,7 @@ class Book:
       return (f"Book '{self.title}' checked out.")
     else:
       return (f"Book '{self.title}' already checked out.")
-  def return_book (self):
+  def return_book(self):
     if self._is_checked_out:
       self._is_checked_out is False
       return (f"Book '{self.title}' returned.")

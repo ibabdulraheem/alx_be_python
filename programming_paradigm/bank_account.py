@@ -18,9 +18,9 @@ class BankAccount:
       return (f"withdrew:, ${float(self.account_balance)}")
   
   def display_balance(self):
-    print( f"Current Balance: ${float(self.amount)}" )
+    print( f"Current Balance: ${float(self.account_balance)}" )
 
-my_account = BankAccount(500)
+my_account = BankAccount(250)
 print(my_account.display_balance())
 
 
