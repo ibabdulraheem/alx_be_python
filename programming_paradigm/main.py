@@ -1,7 +1,7 @@
 import sys
 from robust_division_calculator import safe_divide
 
-def robust_test():
+def main():
     if len(sys.argv) != 3:
         print("Usage: python main.py <numerator> <denominator>")
         sys.exit(1)
