@@ -19,8 +19,6 @@ class BankAccount:
     print( "Current Balance: ", {self.account_balance} )
 
 
-my_account = BankAccount(100)
-print(my_account.withdraw(1000))
 
 
 
