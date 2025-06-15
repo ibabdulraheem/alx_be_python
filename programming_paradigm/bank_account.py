@@ -5,7 +5,7 @@ class BankAccount:
   def deposit(self,amount):
     self.amount = amount
     self.account_balance += self.amount
-    print (f" Deposited: ${self.account_balance}" )
+    return (f" Deposited: ${self.account_balance}" )
   
   def withdraw(self,amount):
     self.amount = amount
