@@ -5,12 +5,12 @@ class BankAccount:
   def deposit(self,amount):
     self.amount = amount
     self.account_balance += self.amount
-    return (f" Deposited: ${float(self.account_balance)} ")
+    return (f" Deposited:${float(self.account_balance)} ")
   
   def withdraw(self,amount):
     self.amount = amount
     if self.account_balance == 0 or self.account_balance < self.amount:
-       print("insufficient Balance")
+       print("insufficient funds")
     elif self.account_balance >= self.amount:
       self.account_balance -= self.amount
       return self.account_balance
