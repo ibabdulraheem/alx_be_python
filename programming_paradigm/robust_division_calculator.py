@@ -1,7 +1,7 @@
-def safe_divide (numerator,denominator):
+def safe_divide  (numerator,denominator ):
   try:
-      numerator = (input("Enter numerator: "))
-      denominator = (input("Enter denominator: ")) 
+      numerator = float((input("Enter numerator: ")))
+      denominator = float((input("Enter denominator: ")))
       result = numerator / denominator
       print(f"The result of the division is {result}")
   except ZeroDivisionError:
