@@ -103,11 +103,13 @@
 # result= calculator.sub(5,3)
 # print(result)
 
-count = 10
+
+# Explanation of variable scope and namespaces
+count = 10             # Global variable
 def outer_function():
-  count = 5
+  count = 5            # Enclosing variable
   def inner_function():
-    count = 2
+    count = 2          # Local variable
     print (count)
   inner_function()
   print(count)
