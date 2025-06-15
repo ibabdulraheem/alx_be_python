@@ -19,7 +19,7 @@ class BankAccount:
     print("Current Balance:", {self.account_balance})
 
 
-my_account_balance = BankAccount(1000)
+
 
 
 
