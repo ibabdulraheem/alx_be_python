@@ -20,7 +20,6 @@ class BankAccount:
 
 
 my_account_balance = BankAccount(1000)
-print(my_account_balance.deposit(2000))
 
 
 
