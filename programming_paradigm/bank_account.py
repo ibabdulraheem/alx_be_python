@@ -20,6 +20,9 @@ class BankAccount:
   def display_balance(self):
     print( "Current Balance:", {self.account_balance} )
 
+my_account = BankAccount(500)
+print(my_account.withdraw(1000))
+
 
 
 
