@@ -11,7 +11,7 @@ class BankAccount:
     self.amount = amount
     if self.account_balance == 0 or self.account_balance < self.amount:
        return ("Insufficient funds.")
-    elif self.account_balance >= self.amount:
+    elif self.account_balance > self.amount:
       self.account_balance -= self.amount
       return (f"withdrew:, {self.account_balance}")
   
@@ -19,7 +19,8 @@ class BankAccount:
     print( "Current Balance: ", {self.account_balance} )
 
 
-
+my_account = BankAccount(100)
+print(my_account.withdraw(1000))
 
 
 
