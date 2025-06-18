@@ -19,24 +19,3 @@ class BankAccount:
   def display_balance(self):
       print( f"Current Balance: ${float(self.account_balance)}" )
 
-my_account = BankAccount(250)
-print(my_account.display_balance())
-my_account.deposit(50)
-my_account.display_balance()
-my_account.withdraw(2000)
-my_account.display_balance()
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-  
