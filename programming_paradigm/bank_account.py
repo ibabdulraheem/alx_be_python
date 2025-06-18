@@ -15,7 +15,7 @@ class BankAccount:
       self.account_balance-= self.amount
       return(f"Withdrew: ${self.amount}")
     else:
-      return("Invalid transaction")
+      return("Invalid command.")
   def display_balance(self):
      return(f"Current Balance: ${self.account_balance} ")
 
