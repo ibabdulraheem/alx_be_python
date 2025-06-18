@@ -1,22 +1,25 @@
 class SimpleCalculator:
+    def __init__(self,a,b):
+        self.a = a
+        self.b = b
 
-    def add(self, a, b):
+    def add(self):
         """Return the addition of a and b."""
-        return a + b
+        return self.a + self.b
 
-    def subtract(self, a, b):
+    def subtract(self):
         """Return the subtraction of b from a."""
-        return a - b
+        return self.a - self.b
 
-    def multiply(self, a, b):
+    def multiply(self):
         """Return the multiplication of a and b."""
-        return a * b
+        return self.a * self.b
 
-    def divide(self, a, b):
+    def divide(self):
         """Return the division of a by b. Returns None if b is zero."""
-        if b == 0:
+        if self.b == 0:
             return None
-        return a / b
+        return self.a / self.b
     
 my_calculator = SimpleCalculator()
 print(my_calculator.add(10,5))
