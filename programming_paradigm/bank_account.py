@@ -12,8 +12,8 @@ class BankAccount:
     if self.account_balance > 0:
        self.account_balance-= self.amount
        print(f"Withdrew: ${self.amount}")
-    elif self.account_balance < self.amount:
-      return ("Insufficien account balance.")
+    elif self.account_balance == 0:
+      print ("Insufficien account balance.")
     elif self.account_balance >= self.amount:
       self.account_balance -= self.amount
       return (f"withdrew:, ${float(self.account_balance)}")
