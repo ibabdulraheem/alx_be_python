@@ -18,4 +18,10 @@ class BankAccount:
       print(f"withdrew: ${amount}")
   def display_balance(self):
       print( f"Current Balance: ${self.account_balance} ")
+account = BankAccount(1000)
+account.display_balance()
+account.deposit(1500)
+account.display_balance()
+account.withdraw(1200)
+account.display_balance()
 
