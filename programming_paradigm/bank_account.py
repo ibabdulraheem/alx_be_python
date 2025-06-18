@@ -13,6 +13,7 @@ class BankAccount:
       self.account_balance -= self.amount
       return(f"withdrew: ${self.amount}")
     elif self.account_balance == 0 or self.account_balance < self.amount:
+      self.account_balance -= self.amount
       return("Insufficient funds.")
     else:
       return("Invalid transaction!")
