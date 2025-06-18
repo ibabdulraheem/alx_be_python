@@ -10,9 +10,8 @@ def safe_divide (numerator,denominator ):
     print("Please enter numeric values only.")
 
 try:
-  safe_divide(10,5)
-  safe_divide(10,0)
-  safe_divide("ten",5)
+  safe_divide(12,2)
+ 
 
 
 
