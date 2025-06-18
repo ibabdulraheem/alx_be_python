@@ -10,7 +10,7 @@ def safe_divide (numerator,denominator ):
     print("Please enter numeric values only.")
 
 try:
-  safe_divide(12,2)
+  safe_divide(2,1)
 except ZeroDivisionError as e:
   print(e)
 except ValueError as e:
