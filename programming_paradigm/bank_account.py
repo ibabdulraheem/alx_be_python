@@ -9,7 +9,7 @@ class BankAccount:
     if self.account_balance == 0:
        return(f"Your Account is zero")
     elif self.account_balance < amount:
-      print ("Insufficient funds.")
+      return("Insufficient funds.")
     elif self.account_balance >= amount:
       self.account_balance -= amount
       return(f"withdrew: ${amount}")
