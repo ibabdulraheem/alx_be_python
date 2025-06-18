@@ -6,7 +6,8 @@ class BankAccount:
   def deposit(self,amount):
     self.account_balance += self.amount
     return(f"Deposited: ${amount} ")
-  def withdraw(self):
+  def withdraw(self,amount):
+    self.amout = amount
     if self.account_balance == 0:
        return(f"Your Account is zero")
     elif self.account_balance < self.amount:
