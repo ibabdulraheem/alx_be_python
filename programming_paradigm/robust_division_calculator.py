@@ -8,7 +8,7 @@ def safe_divide (numerator,denominator ):
   
 
 try:
-  safe_divide(2,2)
+  safe_divide()
 except ZeroDivisionError as e:
   print(e)
 except ValueError as e:
