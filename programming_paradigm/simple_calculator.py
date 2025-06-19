@@ -1,25 +1,20 @@
 class SimpleCalculator:
-    def __init__(self,a,b):
-        self.a = a
-        self.b = b
+    """A simple calculator class that supports basic arithmetic operations."""
 
-    def add(self):
+    def add(self, a, b):
         """Return the addition of a and b."""
-        return self.a + self.b
+        return a + b
 
-    def subtract(self):
+    def subtract(self, a, b):
         """Return the subtraction of b from a."""
-        return self.a - self.b
+        return a - b
 
-    def multiply(self):
+    def multiply(self, a, b):
         """Return the multiplication of a and b."""
-        return self.a * self.b
+        return a * b
 
-    def divide(self):
+    def divide(self, a, b):
         """Return the division of a by b. Returns None if b is zero."""
-        if self.b == 0:
+        if b == 0:
             return None
-        return self.a / self.b
-    
-my_calculator = SimpleCalculator()
-print(my_calculator.add(10,5))
+        return a / b
