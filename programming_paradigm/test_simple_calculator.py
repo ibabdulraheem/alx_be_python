@@ -1,5 +1,6 @@
 import unittest
 from simple_calculator import SimpleCalculator
+
 class TestSimpleCalculator (unittest.TestCase):
   def test_addition(self):
     result = SimpleCalculator.add(self,10,13)
