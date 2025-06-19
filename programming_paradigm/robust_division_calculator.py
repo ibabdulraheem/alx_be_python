@@ -1,4 +1,6 @@
 def safe_divide(numerator,denominator):
+  result = numerator/denominator
+  return result
   try:
       if denominator == 0:
         raise ZeroDivisionError ("Error: Cannot divide by zero.")
@@ -8,7 +10,7 @@ def safe_divide(numerator,denominator):
   
 
 try:
-  result = safe_divide(10,2)
+  safe_divide(10,2)
 except ZeroDivisionError as e:
   print(e)
 except ValueError as e:
