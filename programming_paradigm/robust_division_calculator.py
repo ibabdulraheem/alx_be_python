@@ -9,7 +9,6 @@ def safe_divide (numerator,denominator ):
 
 try:
   safe_divide(2,1)
-  safe_divide(2,0)
 except ZeroDivisionError as e:
   print(e)
 except ValueError as e:
