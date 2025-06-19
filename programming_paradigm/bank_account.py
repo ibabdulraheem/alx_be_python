@@ -4,11 +4,11 @@ class BankAccount:
 
 
   def deposit(self,amount):
-    self.amount = amount
+    self.amount = float(amount)
     self.account_balance += self.amount
     return(f"Deposited: ${amount} ")
   def withdraw(self,amount):
-    self.amount = amount
+    self.amount = float(amount)
     if self.amount < self.account_balance:
       self.account_balance-= self.amount
       return(f"Withdrew: ${self.amount}")
@@ -17,7 +17,7 @@ class BankAccount:
     else:
       return("Invalid command.")
   def display_balance(self):
-     print(f"Current Balance: ${float(self.account_balance)} ")
+     print(f"Current Balance: ${self.account_balance} ")
 
 
 
