@@ -1,5 +1,5 @@
 class Book:
-  def __init__(self,title = str,author = str):
+  def __init__(self,title:str,author:str):
     self.title = title
     self.author = author
 
@@ -19,7 +19,3 @@ class Library:  # Implementing composition
   def add_book(self,book):
     self.book = book
     self.books.append(book)
-    print(self.books)
-
-my_book1 = Library("world power")
-my_book1.add_book("good")
