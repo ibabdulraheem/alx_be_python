@@ -36,4 +36,4 @@ class Library:  # Implementing composition
 # my_ebook = EBook("power factor","Ibrahim",42)
 # my_print_book = PrintBook("power factor","Ibrahim",50)
 my_library = Library()
-# my_library.list_books()
+my_library.add_book("power")
