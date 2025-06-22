@@ -19,12 +19,7 @@ class Library:  # Implementing composition
   def __init__(self):
     self.books = []
   def add_book(self,book):
-    self.book = book
-    self.books.append(Book("title","author"))
-    self.books.append(EBook("title","author",42))
-    self.books.append(PrintBook("title","author",50))
-
-
+    self.books.append(book)
   def list_books(self):
     self.bks = Book("title","author")
     self.bke = EBook("title","author",42)
@@ -32,8 +27,3 @@ class Library:  # Implementing composition
     print(f"Book: {self.bks.title} published by {self.bks.author}")
     print(f"EBook: {self.bks.title} published by {self.bks.author}, File Size: {self.bke.file_size}KB")
     print(f"PrintBook: {self.bks.title} published by {self.bks.author}, Page Count: {self.bkp.page_count} ")
-# my_book = Book("power factor","Ibrahim")
-# my_ebook = EBook("power factor","Ibrahim",42)
-# my_print_book = PrintBook("power factor","Ibrahim",50)
-my_library = Library()
-my_library.add_book("power")
