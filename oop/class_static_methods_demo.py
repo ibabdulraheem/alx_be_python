@@ -10,4 +10,5 @@ class Calculator:
     cls.result = cls.a * cls.b
     print(f"Calculation type: {cls.calculation_type}")
     return cls.result
+print(Calculator.multiply(10,5))
   
