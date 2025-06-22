@@ -4,7 +4,7 @@ class Calculator:
   def add (a ,b):
     return a + b
   @classmethod
-  def multiply(cls,a,b):
+  def multiply(cls, a,b):
     cls.a = a
     cls.b = b
     cls.result = cls.a * cls.b
