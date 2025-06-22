@@ -7,7 +7,7 @@ class Calculator:
   def multiply(cls, a,b):
     print(f"Calculation type: {cls.calculation_type}")
     return a * b
-Calculator.add(10,15) 
-Calculator.multiply(10,15)
+print(Calculator.add(10,15))
+print(Calculator.multiply(10,15))
 
   
