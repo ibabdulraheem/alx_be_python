@@ -9,5 +9,5 @@ class Calculator:
     cls.b = b
     print(f"Calculation type: {cls.calculation_type}")
     return a*b
-print(Calculator.multiply(10,5))
+
   
