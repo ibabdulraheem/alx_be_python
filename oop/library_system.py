@@ -26,5 +26,5 @@ class Library:  # Implementing composition
     self.bke = EBook("good man","Ibrahim",42)
     self.bkp = PrintBook("good man","Ibrahim",50)
     print(f"Book: {self.bks.title} published by {self.bks.author}")
-    print(f"EBook: {self.bks.title} published by {self.bks.author},File Size: {self.bke.file_size}KB")
-    print(f"PrintBook: {self.bks.title} published by {self.bks.author},Page Count: {self.bkp.page_count} ")
+    print(f"EBook: {self.bks.title} published by {self.bks.author}, File Size: {self.bke.file_size}KB")
+    print(f"PrintBook: {self.bks.title} published by {self.bks.author}, Page Count: {self.bkp.page_count} ")
