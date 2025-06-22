@@ -16,8 +16,8 @@ class PrintBook(Book):
     super().__init__(title, author)
 
 class Library:  # Implementing composition
-  def __init__(self,books = []):
-    self.books = books
+  def __init__(self):
+    self.books = []
   def add_book(self,book):
     self.book = book
     self.books.append(book)
