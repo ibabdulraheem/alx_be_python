@@ -10,8 +10,6 @@ class Calculator:
     print(f"Calculation type: {cls.calculation_type}")
     return a * b
   
-print(Calculator.multiply(2,3))
-print(Calculator.add(4,5))
 
 
 
