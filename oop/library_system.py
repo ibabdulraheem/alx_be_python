@@ -21,9 +21,9 @@ class Library:  # Implementing composition
   def add_book(self,book):
     self.books.append(book)
   def list_books(self):
-    self.bks = Book("title","author")
-    self.bke = EBook("title","author",42)
-    self.bkp = PrintBook("title","author",50)
+    self.bks = Book("power","Ibrahim")
+    self.bke = EBook("solar","Abdulraheem",50)
+    self.bkp = PrintBook("sun","Ayigoro",40)
     print(f"Book: {self.bks.title} published by {self.bks.author}")
     print(f"EBook: {self.bks.title} published by {self.bks.author}, File Size: {self.bke.file_size}KB")
     print(f"PrintBook: {self.bks.title} published by {self.bks.author}, Page Count: {self.bkp.page_count} ")
