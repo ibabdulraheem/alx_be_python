@@ -6,8 +6,6 @@ class Calculator:
   @classmethod
   def multiply(cls, a,b):
     print(f"Calculation type: {cls.calculation_type}")
-    cls.a = a
-    cls.b = b
     return a*b
 
   
