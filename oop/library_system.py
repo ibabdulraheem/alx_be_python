@@ -29,4 +29,6 @@ class Library:  # Implementing composition
     print(f"EBook: {self.bks.title} published by {self.bks.author}, File Size: {self.bke.file_size}KB")
     print(f"PrintBook: {self.bks.title} published by {self.bks.author}, Page Count: {self.bkp.page_count} ")
 my_book = Book()
+my_ebook = EBook()
+my_print_book = PrintBook()
 my_library = Library()
