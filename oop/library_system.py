@@ -24,7 +24,7 @@ class Library:  # Implementing composition
     self.bks = Book("Pride and Prejudice", "Jane Austen")
     self.bke = EBook("Snow Crash", "Neal Stephenson", 500)
     self.bkp = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
-    print(f"Book: {self.bks.title} published by {self.bks.author}")
-    print(f"EBook: {self.bks.title} published by {self.bks.author}, File Size: {self.bke.file_size}KB")
-    print(f"PrintBook: {self.bks.title} published by {self.bks.author}, Page Count: {self.bkp.page_count} ")
+    print(f"Book: {self.bks.title} by {self.bks.author}")
+    print(f"EBook: {self.bks.title} by {self.bks.author}, File Size: {self.bke.file_size}KB")
+    print(f"PrintBook: {self.bks.title} by {self.bks.author}, Page Count: {self.bkp.page_count} ")
 
