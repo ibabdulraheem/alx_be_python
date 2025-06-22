@@ -26,5 +26,5 @@ class Library:  # Implementing composition
     self.bkp = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
     print(f"Book: {self.bks.title} by {self.bks.author}")
     print(f"EBook: {self.bke.title} by {self.bke.author}, File Size: {self.bke.file_size}KB")
-    print(f"PrintBook: {self.bkp.title} by {self.bkp.author}, Page Count: {self.bkp.page_count} ")
+    print(f"PrintBook: {self.bkp.title} by {self.bkp.author}, Page Count: {self.bkp.page_count}")
 
