@@ -9,8 +9,8 @@ class Calculator:
   def multiply(cls, a,b ):
     print(f"Calculation type: {cls.calculation_type}")
     return a * b
-Calculator.add(10,5)
-Calculator.multiply(10,5)
+print(Calculator.add(10,5))
+print(Calculator.multiply(10,5))
 
 
   
